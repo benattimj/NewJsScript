@@ -1,21 +1,14 @@
 
+class Produto {
+    constructor() {}
 
-class Produto{
-
-    constructor(){
-
-    }
-
-adicionar() {
-    
+    adicionar() {
         alert('Vamos Adicionar o produto');
     }
 
-}
-
-
-excluir(){
-    alert('item deletado');
+    excluir() {
+        alert('item deletado');
+    }
 }
 
 var produto = new Produto();

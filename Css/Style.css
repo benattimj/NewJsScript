@@ -6,6 +6,7 @@ body{
     
     font-family: 'Nunito Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
+    background-color: #fafbfc;
 
 }
 
@@ -14,4 +15,48 @@ header {
     padding: 10px;
     color: white;
     text-align: center;
+}
+
+main {
+    padding: 30px 50px;
+
+
+}
+
+.card{
+    background-color: #fff;
+    border: 2px solid seagreen;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.lineInput{
+    display: grid;
+    margin-bottom: 10px;
+}
+
+input{
+    padding: 10px;
+    border: 1px solid palegreen;
+    border-radius: 3px;
+    outline: 0;
+}
+
+button {
+    border: 0;
+    padding: 10px;
+    outline: 0%;
+    background-color: rgb(8, 147, 160);
+    color: white;
+    border-radius: 3px;
+    font-weight: bold;
+    transition: all ease 0.3s;
+
+
+}
+
+button:hover{
+    background-color: rgb(4, 64, 70);
+
 }
